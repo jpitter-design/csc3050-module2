@@ -3,18 +3,32 @@
 <head>
 <style>
 .card {
-
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
 
 .price {
-
+  color: green;
+  font-size: 22px;
 }
 
 .card button {
-
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
 }
 
 .card button:hover {
+ opacity= 0.7;
 }
 </style>
 </head>
@@ -23,9 +37,10 @@
 <h2 style="text-align:center">Product Card</h2>
 
 <div class="card">
-  <h1>Product</h1>
-  <p class="price">$</p>
-  <p>Some text about the product </p>
+  <img src="https://static.actugaming.net/media/2020/04/guilty-gear-strive-cover.jpg" alt="GGST" style="width:100%">
+  <h1>Guilty Gear Strive</h1>
+  <p class="price">$39.99</p>
+  <p>The cutting-edge 2D/3D hybrid graphics have been raised to the next level in this new installment of the guilty gear series.</p>
   <p><button>Add to Cart</button></p>
 </div>
 
